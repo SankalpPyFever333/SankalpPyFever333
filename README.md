@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Sankalp Pandey and I'm a Full Satck developer</p>
+<p align="left">My name is Sankalp Pandey and I'm a Full Stack developer</p>
 
 ###
 
