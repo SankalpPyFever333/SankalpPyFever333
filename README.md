@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">👋 Hi,<br><br>🌐 Full Stack Engineer | MERN Stack Developer | Flutter Developer <br><br>Intern at Xero Apps<br><br>🎓 Currently pursuing MCA from Jamia Millia Islamia University, New Delhi<br><br>📚 Completed BCA from National PG College<br><br>💻 Passionate about creating interactive web applications using:<br>- Frontend: JavaScript, React, Redux<br>- Backend: Node.js, Express<br>- Database: MongoDB, Firebase , SQL , postgreSQL<br><br>🛠️ Creator of 'Floofy', a platform for pet lovers<br><br>🚀 Always eager to learn and explore new technologies</p>
+<p align="left">👋 Hi,<br><br>🌐 Full Stack Engineer | MERN Stack Developer | Flutter Developer <br><br>- Intern at Xero Apps<br><br>🎓 Currently pursuing MCA from Jamia Millia Islamia University, New Delhi<br><br>📚 Completed BCA from National PG College<br><br>💻 Passionate about creating interactive web applications using:<br>- Frontend: JavaScript, React, Redux<br>- Backend: Node.js, Express<br>- Database: MongoDB, Firebase , SQL , postgreSQL<br><br>🛠️ Creator of 'Floofy', a platform for pet lovers<br><br>🚀 Always eager to learn and explore new technologies</p>
 
 ###
 
