@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">👋 Hi,<br><br>🌐 Full Stack Engineer | MERN Stack Developer | Flutter Developer <br><br>🎓 Currently pursuing MCA from Jamia Millia Islamia University, New Delhi<br><br>📚 Completed BCA from National PG College<br><br>💻 Passionate about creating interactive web applications using:<br>- Frontend: Flutter, Dart, JavaScript, React, Redux, Tailwind CSS<br>- Backend: Deno, Hono, Node.js, Express, Postman<br>- Database: Firebase, MongoDb, DriftSQL, Redis, postgreSQL<br><br>🛠️ Creator of 'Floofy', a platform for pet lovers<br><br>🚀 Always eager to learn and explore new technologies</p>
+<p align="left">👋 Hi,<br><br>🌐 Full Stack Engineer | MERN Stack Developer | Flutter Developer <br><br>🎓 Currently pursuing MCA from Jamia Millia Islamia University, New Delhi<br><br>📚 Completed BCA from National PG College<br><br>💻 Passionate about creating interactive web and mobile applications using:<br>- Frontend: Flutter, Dart, GetX, JavaScript, React, Redux, Tailwind CSS<br>- Backend: Deno, Hono, Node.js, Express, Postman<br>- Database: Firebase, MongoDb, DriftSQL, Redis, Supabase, postgreSQL<br><br>🛠️ Creator of 'Floofy', a platform for pet lovers<br><br>🚀 Always eager to learn and explore new technologies</p>
 
 ###
 
