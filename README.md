@@ -1,83 +1,70 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SankalpPyFever333/SankalpPyFever333/main/assets/hero.svg" width="100%" alt="Sankalp Pandey — Full Stack Product Engineer" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=21&pause=1100&color=3FD3FF&center=true&vCenter=true&width=780&height=42&lines=Flutter+apps+on+Android%2C+iOS+and+Web;Storefronts+with+custom+domains+and+auto+TLS;WhatsApp+agents+on+queues+and+webhooks;Deno+APIs+behind+Nginx+on+DigitalOcean" alt="What I do" />
-
-<a href="https://www.linkedin.com/in/sankalp-pandey-108562217"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<img src="https://img.shields.io/github/followers/SankalpPyFever333?style=for-the-badge&color=172a43&labelColor=005773&logo=github&logoColor=white" alt="Followers" />
-<img src="https://komarev.com/ghpvc/?username=SankalpPyFever333&style=for-the-badge&color=0080ee&label=PROFILE+VIEWS" alt="Profile views" />
-<img src="https://img.shields.io/badge/New%20Delhi,%20India-172a43?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+<img src="./assets/hero.svg" width="100%" alt="Sankalp Pandey — Full Stack Product Engineer. App, storefront, API and infrastructure." />
 
 </div>
 
----
-
 ## About
 
-I design, build and operate production software from the UI down to the droplet.
+I'm a full-stack product engineer based in New Delhi. I design, build and
+operate production software from the UI down to the droplet.
 
-Right now I own **BillingFast** end to end: the Flutter app on Android, iOS and
-Web, the online storefront, the WhatsApp automation agent, and the entire
-backend and infrastructure behind them. That means Drift/SQLite offline sync and
-conflict resolution on one side, and Nginx, TLS, Redis queues and DigitalOcean
-deploys on the other.
+At **[BillingFast](https://www.billingfast.com/)**, I work across the full
+delivery chain: the Flutter app on Android, iOS and Web, merchant storefronts,
+WhatsApp automation, backend services and infrastructure. I am comfortable
+taking a feature from schema migration to app-store release to production
+incident.
 
-- Shipping retail billing, inventory, e-commerce and messaging automation for
-  real merchants
-- Comfortable owning a feature from schema migration to app store release to
-  production incident
-- Previously built **Floofy**, a platform for pet lovers
-- **MCA**, Jamia Millia Islamia · **BCA**, National PG College
+[BillingFast product](https://www.billingfast.com/) ·
+[Android app](https://play.google.com/store/apps/details?id=com.apnidukan.my_app)
+· [iOS app](https://apps.apple.com/in/app/billing-fast-kirana-fast/id1567324958)
+· [Web app](https://www.billingfast.com/app/) ·
+[LinkedIn](https://www.linkedin.com/in/sankalp-pandey-108562217) ·
+[Email](mailto:sankalppandey696@gmail.com)
 
 ---
 
-## What I'm building
+## Selected work
 
-<table>
-<tr>
-<td width="33%" valign="top">
+### BillingFast — retail billing, inventory and commerce
 
-### BillingFast
+A production platform that helps retailers manage billing, stock, reporting,
+online sales and customer communication. The Android app has reached
+**[50K+ downloads](https://play.google.com/store/apps/details?id=com.apnidukan.my_app)**,
+with the product also shipping on iOS and the Web.
 
-Retail billing, inventory and e-commerce platform.
+- **Multi-platform client:** Flutter across Android, iOS and Web, with
+  Drift/SQLite local persistence, background cloud sync and conflict handling
+- **Fast catalog workflows:** low-latency product search through Typesense for
+  inventory and billing screens
+- **Merchant storefronts:** catalog, cart, checkout, coupons and order tracking,
+  including custom-domain onboarding and automated TLS
+- **WhatsApp automation:** campaigns, order updates, cart recovery and
+  rule-driven workflows on the
+  [WhatsApp Business API](https://www.billingfast.com/blog/whatsapp-order-automation.html)
+- **Production operations:** Deno/Hono services, Redis-backed queues, Postgres,
+  Nginx and containerized deployments
 
-Flutter across Android, iOS and Web PWA. Offline-first with Drift, cloud sync
-via Supabase, sub-100ms product search with Typesense.
+### [Floofy](https://github.com/SankalpPyFever333/Floofy) — community platform for pet lovers
 
-`Flutter` `Drift` `Supabase` `Typesense`
+I built Floofy as a full-stack MERN application for people to share pet content,
+discover products and services, manage profiles and interact through community
+features. It includes authentication, administrative workflows and scheduled
+database backups.
 
-</td>
-<td width="33%" valign="top">
+[Try the live application](https://floofy-eta.vercel.app/) ·
+[Explore the source](https://github.com/SankalpPyFever333/Floofy)
 
-### WhatsApp Agent
-
-Conversational commerce and automation layer.
-
-Broadcast campaigns, order updates, cart recovery and rule-driven automations on
-the WhatsApp Business API.
-
-`Deno` `Hono` `Redis` `Webhooks`
-
-</td>
-<td width="33%" valign="top">
-
-### Online Store
-
-Customer-facing storefront per merchant.
-
-Catalog, cart, checkout, coupons and order tracking, with custom domain
-onboarding and automatic TLS.
-
-`PWA` `Postgres` `Nginx` `Cloudflare`
-
-</td>
-</tr>
-</table>
+`React` · `Redux` · `Node.js` · `Express` · `MongoDB` · `Firebase`
 
 ---
 
 ## The system I run
+
+Flutter clients and merchant storefronts enter through Nginx and managed TLS.
+Deno services coordinate Postgres, Redis queues, Typesense and object storage,
+while background workers handle scheduled and asynchronous jobs. Local app data
+syncs back to the cloud with explicit conflict handling.
 
 ```mermaid
 flowchart LR
@@ -92,7 +79,7 @@ flowchart LR
         E["Custom Domains<br/>DNS · Auto Certs"]
     end
 
-    subgraph services["Services · Docker on DigitalOcean"]
+    subgraph services["Application Services · Docker"]
         F["Deno API<br/>Hono"]
         G["WhatsApp Agent<br/>Webhooks · Automations"]
         H["Workers<br/>Queues · Cron · Shipping"]
@@ -132,50 +119,31 @@ flowchart LR
 
 ---
 
-## Stack
+## Core stack
 
-<div align="center">
-
-<sub><b>C L I E N T</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=flutter,dart,firebase,androidstudio,react,nextjs,ts,js,redux,tailwind&theme=dark&perline=10" alt="Client stack" />
-
-<sub><b>S E R V I C E</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=deno,nodejs,express,supabase,graphql,postman&theme=dark&perline=10" alt="Service stack" />
-
-<sub><b>D A T A</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,sqlite&theme=dark&perline=10" alt="Data stack" />
-
-<sub><b>P L A T F O R M</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=docker,nginx,cloudflare,linux,githubactions,git,bash,vscode&theme=dark&perline=10" alt="Platform stack" />
-
-<br/>
-
-**No icon exists, still ship it daily:** `Hono` · `Drift` · `GetX` · `Typesense`
-· `DigitalOcean` · `WhatsApp Cloud API` · `Let's Encrypt`
-
-</div>
+- **Client:** Flutter, Dart, Drift, GetX, React, Next.js, TypeScript, Redux,
+  Tailwind CSS, PWA
+- **Backend and APIs:** Deno, Hono, Node.js, Express, GraphQL, webhooks,
+  WhatsApp Cloud API
+- **Data and search:** Postgres, Supabase, Redis, Typesense, SQLite, MongoDB,
+  Firebase, object storage
+- **Platform:** Docker, Nginx, Cloudflare, DigitalOcean, Let's Encrypt, Linux,
+  GitHub Actions, Bash
 
 ---
 
-## GitHub
+## Background
 
-<div align="center">
-
-<img height="170" src="https://github-stats-extended.vercel.app/api?username=SankalpPyFever333&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&title_color=0080ee&icon_color=dba54d&text_color=8b949e&bg_color=00000000" alt="GitHub stats" />
-<img height="170" src="https://streak-stats.demolab.com?user=SankalpPyFever333&hide_border=true&background=00000000&ring=0080ee&fire=dba54d&currStreakLabel=0080ee&sideNums=8b949e&currStreakNum=8b949e&dates=6e7681&sideLabels=8b949e" alt="Streak" />
-
-<img height="150" src="https://github-stats-extended.vercel.app/api/top-langs/?username=SankalpPyFever333&layout=compact&hide_border=true&langs_count=8&title_color=0080ee&text_color=8b949e&bg_color=00000000" alt="Top languages" />
-
-</div>
+- **Master of Computer Applications**, Jamia Millia Islamia
+- **Bachelor of Computer Applications**, National PG College
 
 ---
 
-<div align="center">
+## Let's build something that ships
 
-<a href="https://www.linkedin.com/in/sankalp-pandey-108562217"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:sankalppandey696@gmail.com"><img src="https://img.shields.io/badge/Email-172a43?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/SankalpPyFever333"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+I enjoy hard product and infrastructure problems—especially the ones that need
+ownership across client experience, APIs, data and deployment.
 
-<img src="https://raw.githubusercontent.com/SankalpPyFever333/SankalpPyFever333/main/assets/footer.svg" width="100%" alt="" />
-
-</div>
+[Email me](mailto:sankalppandey696@gmail.com) ·
+[Connect on LinkedIn](https://www.linkedin.com/in/sankalp-pandey-108562217) ·
+[View my GitHub](https://github.com/SankalpPyFever333)
