@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="Let's build something that ships">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02435e"/>
+      <stop offset="50%" stop-color="#172a43"/>
+      <stop offset="100%" stop-color="#08121f"/>
+    </linearGradient>
+    <linearGradient id="faccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dba54d"/>
+      <stop offset="50%" stop-color="#3fd3ff"/>
+      <stop offset="100%" stop-color="#0080ee"/>
+    </linearGradient>
+    <linearGradient id="fsheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fcard"><rect width="1200" height="160" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#fcard)" font-family="Segoe UI, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <rect width="1200" height="160" fill="url(#fbg)"/>
+    <rect y="0" width="1200" height="4" fill="url(#faccent)" opacity="0.9"/>
+
+    <path d="M0 132 Q 150 96 300 122 T 600 116 T 900 126 T 1200 104 V160 H0 Z" fill="#0080ee" fill-opacity="0.12">
+      <animate attributeName="d"
+        values="M0 132 Q 150 96 300 122 T 600 116 T 900 126 T 1200 104 V160 H0 Z;
+                M0 118 Q 150 138 300 106 T 600 130 T 900 108 T 1200 128 V160 H0 Z;
+                M0 132 Q 150 96 300 122 T 600 116 T 900 126 T 1200 104 V160 H0 Z"
+        dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 142 Q 200 118 400 138 T 800 132 T 1200 142 V160 H0 Z" fill="#3fd3ff" fill-opacity="0.10">
+      <animate attributeName="d"
+        values="M0 142 Q 200 118 400 138 T 800 132 T 1200 142 V160 H0 Z;
+                M0 134 Q 200 152 400 124 T 800 146 T 1200 130 V160 H0 Z;
+                M0 142 Q 200 118 400 138 T 800 132 T 1200 142 V160 H0 Z"
+        dur="9s" repeatCount="indefinite"/>
+    </path>
+
+    <rect x="-400" y="0" width="320" height="160" fill="url(#fsheen)" transform="skewX(-18)">
+      <animate attributeName="x" values="-460;1320;1320" keyTimes="0;0.5;1" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g text-anchor="middle">
+      <text x="600" y="62" font-size="24" font-weight="700" fill="#ffffff" letter-spacing="0.4">Let's build something that ships.</text>
+      <text x="600" y="90" font-size="14" fill="#8ba2ba">Open to hard product and infrastructure problems.</text>
+    </g>
+
+    <g fill="#3fd3ff">
+      <circle cx="566" cy="112" r="3.5">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.6s" repeatCount="indefinite" begin="0s"/>
+      </circle>
+      <circle cx="600" cy="112" r="3.5">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.6s" repeatCount="indefinite" begin="0.25s"/>
+      </circle>
+      <circle cx="634" cy="112" r="3.5">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.6s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+    </g>
+  </g>
+</svg>
