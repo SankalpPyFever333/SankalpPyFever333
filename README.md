@@ -12,8 +12,9 @@ operate production software from the UI down to the droplet.
 At **[BillingFast](https://www.billingfast.com/)**, I work across the full
 delivery chain: the Flutter app on Android, iOS and Web, merchant storefronts,
 WhatsApp automation, backend services and infrastructure. I am comfortable
-taking a feature from schema migration to app-store release to production
-incident.
+taking a feature from schema migration to production deployment and incident
+response. I also manage Android publishing through Google Play Console and have
+published **10 apps for my clients**.
 
 [BillingFast product](https://www.billingfast.com/) ·
 [Android app](https://play.google.com/store/apps/details?id=com.apnidukan.my_app)
@@ -127,8 +128,8 @@ flowchart LR
   WhatsApp Cloud API
 - **Data and search:** Postgres, Supabase, Redis, Typesense, SQLite, MongoDB,
   Firebase, object storage
-- **Platform:** Docker, Nginx, Cloudflare, DigitalOcean, Let's Encrypt, Linux,
-  GitHub Actions, Bash
+- **Platform and delivery:** Docker, Nginx, Cloudflare, DigitalOcean, Let's
+  Encrypt, Linux, GitHub Actions, Google Play Console, Bash
 
 ---
 
