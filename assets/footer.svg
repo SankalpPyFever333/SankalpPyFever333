@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-labelledby="footer-title footer-desc">
   <title id="footer-title">From commit to customer</title>
-  <desc id="footer-desc">Sankalp Pandey's end-to-end delivery path from app and API development through cloud operations and Google Play publishing, including 10 Android apps published for a client.</desc>
+  <desc id="footer-desc">Sankalp Pandey's end-to-end delivery path from app and API development through cloud operations and Google Play publishing, including 10 Android apps published for clients.</desc>
 
   <defs>
     <linearGradient id="footer-bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
@@ -51,7 +51,7 @@
       <g font-size="15" font-weight="700" letter-spacing="0.7" fill="#ffffff">
         <text x="986" y="76">ANDROID APPS</text>
         <text x="986" y="98">PUBLISHED</text>
-        <text x="986" y="120">FOR A CLIENT</text>
+        <text x="986" y="120">FOR CLIENTS</text>
       </g>
       <path d="M882 133H1112" stroke="#ffffff" stroke-opacity="0.12"/>
       <text x="997" y="150" text-anchor="middle" font-size="11" font-weight="600" letter-spacing="1.4" fill="#9db4c9">GOOGLE PLAY CONSOLE</text>

@@ -13,8 +13,8 @@ At **[BillingFast](https://www.billingfast.com/)**, I work across the full
 delivery chain: the Flutter app on Android, iOS and Web, merchant storefronts,
 WhatsApp automation, backend services and infrastructure. I am comfortable
 taking a feature from schema migration to production deployment and incident
-response. I also manage Android publishing through Google Play Console and have
-published **10 apps for my clients**.
+response. I also manage Android publishing through Google Play Console, with
+**10 apps published for clients**.
 
 [BillingFast product](https://www.billingfast.com/) ·
 [Android app](https://play.google.com/store/apps/details?id=com.apnidukan.my_app)
