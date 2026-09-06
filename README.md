@@ -148,3 +148,9 @@ ownership across client experience, APIs, data and deployment.
 [Email me](mailto:sankalppandey696@gmail.com) ·
 [Connect on LinkedIn](https://www.linkedin.com/in/sankalp-pandey-108562217) ·
 [View my GitHub](https://github.com/SankalpPyFever333)
+
+<div align="center">
+
+<img src="./assets/footer.svg" width="100%" alt="From app development to Play Store release and production operations — end-to-end product delivery by Sankalp Pandey." />
+
+</div>
