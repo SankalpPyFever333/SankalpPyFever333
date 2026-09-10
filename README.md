@@ -1,13 +1,14 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Sankalp Pandey — Full Stack Product Engineer. App, storefront, API and infrastructure." />
+<img src="./assets/hero.svg" width="100%" alt="Sankalp Pandey — Full Stack Product Engineer across apps, AI agents, APIs and infrastructure." />
 
 </div>
 
 ## About
 
 I'm a full-stack product engineer based in New Delhi. I design, build and
-operate production software from the UI down to the droplet.
+operate production software from the UI down to the droplet. I also build
+tool-using AI agents for chat and WhatsApp.
 
 At **[BillingFast](https://www.billingfast.com/)**, I work across the full
 delivery chain: the Flutter app on Android, iOS and Web, merchant storefronts,
@@ -46,6 +47,31 @@ with the product also shipping on iOS and the Web.
 - **Production operations:** Deno/Hono services, Redis-backed queues, Postgres,
   Nginx and containerized deployments
 
+### AI agents — chatbot and WhatsApp
+
+I have built an AI chatbot and a WhatsApp AI agent using the Agent Development
+Kit (ADK). The agents use function calling to select and invoke application
+tools, with Model Context Protocol (MCP) integrations providing a consistent
+interface to tools and context.
+
+```mermaid
+flowchart LR
+    C["Conversations<br/>Chatbot · WhatsApp"] --> A["ADK Agent"]
+    A --> F["Function Tools"]
+    A --> M["MCP Integration"]
+    F --> B["Application Actions"]
+    M --> X["Tools · Context"]
+
+    classDef channel fill:#0080ee,stroke:#172a43,stroke-width:1px,color:#ffffff
+    classDef agent fill:#3d3157,stroke:#dba54d,stroke-width:1px,color:#ffffff
+    classDef tool fill:#172a43,stroke:#0080ee,stroke-width:1px,color:#ffffff
+    classDef result fill:#dba54d,stroke:#887456,stroke-width:1px,color:#172a43
+    class C channel
+    class A agent
+    class F,M tool
+    class B,X result
+```
+
 ### [Floofy](https://github.com/SankalpPyFever333/Floofy) — community platform for pet lovers
 
 I built Floofy as a full-stack MERN application for people to share pet content,
@@ -82,7 +108,7 @@ flowchart LR
 
     subgraph services["Application Services · Docker"]
         F["Deno API<br/>Hono"]
-        G["WhatsApp Agent<br/>Webhooks · Automations"]
+        G["WhatsApp Service<br/>Webhooks · Automations"]
         H["Workers<br/>Queues · Cron · Shipping"]
     end
 
@@ -124,6 +150,8 @@ flowchart LR
 
 - **Client:** Flutter, Dart, Drift, GetX, React, Next.js, TypeScript, Redux,
   Tailwind CSS, PWA
+- **AI and agents:** Agent Development Kit (ADK), Model Context Protocol (MCP),
+  function calling, tool integration, chatbot and WhatsApp agent workflows
 - **Backend and APIs:** Deno, Hono, Node.js, Express, GraphQL, webhooks,
   WhatsApp Cloud API
 - **Data and search:** Postgres, Supabase, Redis, Typesense, SQLite, MongoDB,
@@ -151,6 +179,6 @@ ownership across client experience, APIs, data and deployment.
 
 <div align="center">
 
-<img src="./assets/footer.svg" width="100%" alt="From app development to Play Store release and production operations — end-to-end product delivery by Sankalp Pandey." />
+<img src="./assets/footer.svg" width="100%" alt="From app and AI-agent development to Play Store release and production operations — end-to-end product delivery by Sankalp Pandey." />
 
 </div>
